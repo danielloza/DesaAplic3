@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edt_name"
-        android:textColor="@color/color_2"
+        android:textColor="@color/color_two"
         android:inputType="textPersonName"
         android:textSize="@dimen/size"/>
     <TextView
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/edt_age"
         android:inputType="number"
-        android:textColor="@color/color_2"
+        android:textColor="@color/color_two"
         android:textSize="@dimen/size"
         />
     <TextView
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edt_phone"
-        android:textColor="@color/color_2"
+        android:textColor="@color/color_two"
         android:inputType="phone"
         android:textSize="@dimen/size"
         />

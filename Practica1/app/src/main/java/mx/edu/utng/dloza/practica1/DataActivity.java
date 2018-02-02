@@ -17,7 +17,7 @@ public class DataActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data);
         //Identify the controls
-        txtData2 = findViewById(R.id.txtData2);
+        txtData2 = findViewById(R.id.txt_data_two);
 
         //Recuperate the information pass in the intent
         Bundle bundle = this.getIntent().getExtras();
