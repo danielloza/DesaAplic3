@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.dloza.practica1.OptionActivity">
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/img_cal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:onClick="nextView1"
+            android:layout_marginLeft="@dimen/dimen_cal"
+            android:src="@drawable/cal" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/form"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="@dimen/dimen_form"
+            android:id="@+id/img_form"
+            android:onClick="nextView2"
+            />
+    </TableRow>
+</TableLayout>

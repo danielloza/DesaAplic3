@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="mx.edu.utng.dloza.practica1.DataActivity">
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size"
+        android:text="@string/your_data"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtData2"
+        android:layout_below="@+id/txtData"
+        android:textSize="@dimen/size"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:textSize="@dimen/size"
+        android:textColor="@color/color"
+        android:layout_below="@+id/txtData2"
+        android:background="@color/background_button"
+        android:id="@+id/btn_exit" />
+</RelativeLayout>

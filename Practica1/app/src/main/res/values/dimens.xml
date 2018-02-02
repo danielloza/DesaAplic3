@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_num">10pt</dimen>
+    <dimen name="dimen_form">150px</dimen>
+    <dimen name="dimen_cal">150px</dimen>
+    <dimen name="size">30dp</dimen>
+</resources>
